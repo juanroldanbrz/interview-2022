@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id:  init-scripts
+      author:  Juan Roldan
+      changes:
+        - sqlFile:
+            dbms: 'h2'
+            path: classpath:liquibase/sql/1-init-tables.sql

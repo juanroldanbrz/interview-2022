@@ -1,0 +1,4 @@
+- Complete endpoint to create the book. RestController and repository already provided.
+- Add an extra field author in the book.
+- Create endpoint to find a book by ISBN.
+- Make ISBN unique.
